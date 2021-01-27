@@ -1,6 +1,6 @@
 var server = require ('./lib/server');
-var workers = require('./lib/worker');
-var ww = require('./lib/ww');
+//var workers = require('./lib/worker');
+var workers = require('./lib/ww');
 
 
 app ={};
@@ -10,12 +10,7 @@ app.init=function(){
 
    //workers.init();
 
-   ww.init();
-
-
-
-
-
+   workers.init();
 
 };
 
